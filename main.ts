@@ -1,6 +1,7 @@
 wuKong.setServoAngel(wuKong.ServoList.S0, 0)
 basic.pause(1000)
 wuKong.setServoAngel(wuKong.ServoList.S0, 270)
+basic.pause(100)
 I2C_LCD1602.LcdInit(39)
 I2C_LCD1602.ShowString("Merana T:", 0, 0)
 I2C_LCD1602.ShowString("Ziadana T:", 0, 1)
