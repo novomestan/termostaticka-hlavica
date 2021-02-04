@@ -10,6 +10,7 @@ I2C_LCD1602.clear()
 wuKong.setServoAngel(wuKong.ServoList.S0, 0)
 basic.pause(1000)
 wuKong.setServoAngel(wuKong.ServoList.S0, 90)
+wuKong.stopAllMotor()
 let Merana = 0
 Ziadana = 25
 I2C_LCD1602.ShowString("Merana  T:", 0, 0)
